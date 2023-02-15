@@ -3,7 +3,7 @@ import { Btn } from './Button.styled';
 export const Button = () => {
   return (
     <>
-      <Btn type="button"></Btn>
+      <Btn type="button">Кнопка</Btn>
     </>
   );
 };

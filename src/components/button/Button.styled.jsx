@@ -13,7 +13,6 @@ export const Btn = styled.button`
   font-size: 30px;
   line-height: 1.1;
 
-  transform: translate(-50%, -50%);
   transition: background-color 0.5s, color 0.5s;
 
   &:hover {

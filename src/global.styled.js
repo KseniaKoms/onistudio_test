@@ -3,18 +3,21 @@ import { createGlobalStyle } from 'styled-components';
 export const themeColors = {
   white: '#FFFFFF',
   yellow: '#FFCF00',
-  yellowTransparent: '#rgba(255, 207, 0, 0.3)',
-  placeholder: '#rgba(0, 0, 0, 0.5)',
-  formBackground: '#rgba(255, 255, 255, 0.7)',
+  yellowTransparent: 'rgba(255, 207, 0, 0.3)',
+  placeholder: 'rgba(0, 0, 0, 0.5)',
+  formBackground: 'rgba(255, 255, 255, 0.7)',
   footerBackground: '#0E0803',
-  headerBackground: '#rgba(255, 255, 255, 0.5)',
+  headerBackground: 'rgba(255, 255, 255, 0.5)',
+  grey: '#7F7F7F',
+  lightGrey: '#ECECEC',
+  shadow: 'rgba(0, 0, 0, 0.25)',
 };
 
 const GlobalStyle = createGlobalStyle`
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     box-sizing: border-box;
     
 }
